@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: helvetica neue,Arial, Helvetica, sans-serif;
+}
+.root{
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),  url(../Netflix/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.top-body{
+    padding-top: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: row;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-logo{
+    width: 14%;
+    color: #e50914;
+}
+.btn-sign{
+    background-color: #e50914;
+    color: white;
+    padding-top: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-contianer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-title-contianer{
+    color: white;
+    text-align: center;
+    width: 50%;
+
+}
+.main-title{
+    font-size: 3.2em;   
+    margin-bottom: 14px;
+    line-height: 1.1;
+
+}
+.sub-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;   
+    margin-bottom: 30px;    
+}
+.main-call-to-action{
+    font-family: Arial, Helvetica, sans-serif;
+    font: 1.2em;
+}
+.mail{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mail-input {
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+}
+.button-login{
+    cursor: pointer;
+    padding: 18px 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
+.button-login:hover {
+    background-color: #ff0b18;
+
+}
+
+
+.enjoy{
+   padding: 50px 30px 60px 50px;
+   background-color: black;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 3rem;
+}
+.enjoy-content{
+    color: white;
+    padding-top: 80px;
+    font-size: 47px;
+}
+
+
+.enjoy-media{
+    position: relative;
+    
+
+}
+.tv{
+    width: 426px;
+  
+    
+   
+}
+.enjoy-title{
+    padding-top: 80px;
+    font-size: 47px;
+    
+}
+.enjoy-para{ 
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.vid1{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    width: 305px;
+  
+}
+.video video{
+    display: inline-block;
+    vertical-align: baseline;
+    max-width: 83%;
+    max-height: 64%;
+}
+.stranger{
+    padding: 40px 30px 60px 20px;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 4rem;
+   
+}
+.mobile{
+    position: relative;
+    width: 50%;
+    
+}
+.stranger-content{
+    color: white;
+}
+.box{
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 85px;
+    
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,.25);
+    
+    
+}
+.things{
+    color: #fff;
+    font-size: 16px;
+
+}
+.downloading{
+    color: blue;
+    font-size: 16px;
+
+}
+.stranger-text{
+    padding-left: 12px;
+    padding-top: 9px;
+}
+
+
+.mobile-title{
+    padding-top: 80px;
+    font-size: 47px;
+}
+.mobile-para{
+    font-size: 25px;
+    font-weight: 500;
+}
+.gif{
+    width: 60px;
+    padding-left: 36px;
+    padding-top: 11px;
+}
